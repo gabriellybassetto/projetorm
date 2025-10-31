@@ -1,0 +1,485 @@
+{
+  "modulos": [
+    {
+      "id": "01",
+      "nome": "Projeto",
+      "submenus": [
+        {
+          "id": "01.01",
+          "nome": "Básico",
+          "submenus": [
+            {
+              "id": "01.01.01",
+              "nome": "Selecionar Projeto",
+              "submenus": [
+                { "id": "01.01.01.01", "nome": "Inserir novo Projeto" },
+                { "id": "01.01.01.02", "nome": "Remover Projeto" },
+                { "id": "01.01.01.03", "nome": "Editar Projeto" },
+                { "id": "01.01.01.04", "nome": "Gerar revisão de projeto" },
+                { "id": "01.01.01.05", "nome": "Alterar hierarquia de projetos" },
+                { "id": "01.01.01.06", "nome": "Inserir histórico de projetos" },
+                { "id": "01.01.01.07", "nome": "Gerar revisão múltipla de projeto" },
+                { "id": "01.01.01.08", "nome": "Transformar fase de projeto" },
+                { "id": "01.01.01.09", "nome": "Aplicar Alteração de Escopo" },
+                { "id": "01.01.01.10", "nome": "Listar projetos que o usuário não possui acesso" },
+                { "id": "01.01.01.11", "nome": "Projetos de Revisão Múltipla" },
+                { "id": "01.01.01.12", "nome": "Processo de Separação de BDI" },
+                { "id": "01.01.01.13", "nome": "Sincronismo de Projetos de Revisão Múltipla" },
+                { "id": "01.01.01.14", "nome": "Fluxo de Aprovação FLUIG" },
+                { "id": "01.01.01.15", "nome": "Cancelar Workflow Fluig" },
+                { "id": "01.01.01.16", "nome": "Acesso Rápido a Projetos" },
+                { "id": "01.01.01.17", "nome": "Permitir alterar histórico de projeto revisado" },
+                { "id": "01.01.01.18", "nome": "Histórico de valores do cálculo do projeto" },
+                { "id": "01.01.01.19", "nome": "Histórico de valores do cálculo do projeto - Tarefa" }
+              ]
+            },
+            { "id": "01.01.02", "nome": "Calcular Projeto" },
+            { "id": "01.01.03", "nome": "Consistência de Projetos" },
+            { "id": "01.01.04", "nome": "Resumo do Projeto" },
+            { "id": "01.01.05", "nome": "Monitor de Obras" },
+            { "id": "01.01.06", "nome": "Cockpit de Tarefas / Insumos" }
+          ]
+        },
+        {
+          "id": "01.02",
+          "nome": "Utilitários",
+          "submenus": [
+            {
+              "id": "01.02.01",
+              "nome": "Comparador de Projetos",
+              "submenus": [
+                {
+                  "id": "01.02.01.01",
+                  "nome": "Planilha de Atividades",
+                  "submenus": [
+                    { "id": "01.02.01.01.01", "nome": "Cronograma Previsto" }
+                  ]
+                },
+                {
+                  "id": "01.02.01.02",
+                  "nome": "Planilha de Serviços",
+                  "submenus": [
+                    { "id": "01.02.01.02.01", "nome": "Cronograma Previsto" }
+                  ]
+                },
+                { "id": "01.02.01.03", "nome": "Composições" },
+                { "id": "01.02.01.04", "nome": "Insumos" },
+                { "id": "01.02.01.05", "nome": "Parâmetros" },
+                { "id": "01.02.01.06", "nome": "Cenários" }
+              ]
+            },
+            {
+              "id": "01.02.08",
+              "nome": "Log de Usuário",
+              "submenus": [
+                { "id": "01.02.08.01", "nome": "Excluir Log de Usuarios" }
+              ]
+            },
+            {
+              "id": "01.02.09",
+              "nome": "Importações",
+              "submenus": [
+                { "id": "01.02.09.01", "nome": "Importar Grupo de Custo via Excel" },
+                { "id": "01.02.09.02", "nome": "Importar Insumos via Excel" },
+                { "id": "01.02.09.03", "nome": "Importar Composições via Excel" },
+                { "id": "01.02.09.04", "nome": "Importar Tarefas via Excel" },
+                { "id": "01.02.09.05", "nome": "Importar Apropriação de Serviço/Insumo via Excel" },
+                { "id": "01.02.09.06", "nome": "Importar Calendário de Atividades via Excel" },
+                {
+                  "id": "01.02.09.07",
+                  "nome": "Importar Insumos/Composições/Tarefa via arquivo texto",
+                  "submenus": [
+                    { "id": "01.02.09.07.01", "nome": "Importar Insumos via arquivo texto" },
+                    { "id": "01.02.09.07.02", "nome": "Importar Composições via arquivo texto" },
+                    { "id": "01.02.09.07.03", "nome": "Importar Tarefas via arquivo texto" },
+                    { "id": "01.02.09.07.04", "nome": "Importar Cliente/Fornecedor via arquivo texto" }
+                  ]
+                },
+                {
+                  "id": "01.02.09.08",
+                  "nome": "Importar Arquivos EMOP",
+                  "submenus": [
+                    { "id": "01.02.09.08.01", "nome": "Importar Insumos via EMOP" },
+                    { "id": "01.02.09.08.02", "nome": "Importar Composições via EMOP" },
+                    { "id": "01.02.09.08.03", "nome": "Importar Preços via EMOP" }
+                  ]
+                },
+                {
+                  "id": "01.02.09.09",
+                  "nome": "Importar Arquivos FGV",
+                  "submenus": [
+                    { "id": "01.02.09.09.01", "nome": "Importar Insumos via FGV" },
+                    { "id": "01.02.09.09.02", "nome": "Importar Composições via FGV" },
+                    { "id": "01.02.09.09.03", "nome": "Importar Preços via FGV" }
+                  ]
+                },
+                { "id": "01.02.09.10", "nome": "Integrar com Base ORCECERTO" },
+                { "id": "01.02.09.11", "nome": "Importar Insumo de Suprimento/Faturamento" },
+                { "id": "01.02.09.12", "nome": "Exportar Insumo para Suprimento/Faturamento" },
+                { "id": "01.02.09.13", "nome": "Importar Tarefas via MS Project" }
+              ]
+            },
+            {
+              "id": "01.02.23",
+              "nome": "Acerto de Inconsistências",
+              "submenus": [
+                { "id": "01.02.23.01", "nome": "Ajuste de hierarquia de tarefas" },
+                { "id": "01.02.23.02", "nome": "Ajuste de Grupo DNIT" },
+                { "id": "01.02.23.03", "nome": "Ajuste de histórico de contratos" },
+                { "id": "01.02.23.04", "nome": "Ajuste de medições de contratos" },
+                { "id": "01.02.23.05", "nome": "Atualização de De/Para de Tarefas EAI 2" },
+                { "id": "01.02.23.06", "nome": "Ajuste de periodicidade do contrato" },
+                { "id": "01.02.23.07", "nome": "Identificação de consultas sql de apropriação de tarefas" },
+                { "id": "01.02.23.08", "nome": "Verificação de objetos gerenciais impactados pelo novo SICRO" }
+              ]
+            },
+            {
+              "id": "01.02.32",
+              "nome": "Backup e Restauração",
+              "submenus": [
+                {
+                  "id": "01.02.32.01",
+                  "nome": "Backup do projeto",
+                  "submenus": [
+                    { "id": "01.02.32.01.01", "nome": "Agendar Backup do Projeto" }
+                  ]
+                },
+                { "id": "01.02.32.02", "nome": "Restaurar Projeto" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01.03",
+          "nome": "Parâmetros",
+          "submenus": [
+            {
+              "id": "01.03.01",
+              "nome": "TOTVS Construção Obras e Projetos",
+              "submenus": [
+                {
+                  "id": "01.03.01.01",
+                  "nome": "Gerais",
+                  "submenus": [
+                    { "id": "01.03.01.01.01", "nome": "Editar Parâmetros Gerais" }
+                  ]
+                },
+                {
+                  "id": "01.03.01.02",
+                  "nome": "Projetos",
+                  "submenus": [
+                    { "id": "01.03.01.02.01", "nome": "Cálculo" },
+                    { "id": "01.03.01.02.02", "nome": "Exibição" },
+                    { "id": "01.03.01.02.03", "nome": "Casas Decimais" },
+                    { "id": "01.03.01.02.04", "nome": "Cronograma" },
+                    { "id": "01.03.01.02.05", "nome": "Campos Livres" },
+                    { "id": "01.03.01.02.06", "nome": "Log" },
+                    { "id": "01.03.01.02.07", "nome": "Pert / alocação de Recurso" },
+                    { "id": "01.03.01.02.08", "nome": "Insumos" },
+                    { "id": "01.03.01.02.09", "nome": "Contratos" },
+                    { "id": "01.03.01.02.10", "nome": "Apropriação" },
+                    { "id": "01.03.01.02.11", "nome": "Gestão de Risco" },
+                    { "id": "01.03.01.02.12", "nome": "Integração" },
+                    { "id": "01.03.01.02.13", "nome": "Planilha de Serviço" },
+                    { "id": "01.03.01.02.14", "nome": "Planilha de Atividade" },
+                    { "id": "01.03.01.02.15", "nome": "Projeto" },
+                    { "id": "01.03.01.02.16", "nome": "Composições" },
+                    { "id": "01.03.01.02.17", "nome": "Mobilidade" },
+                    { "id": "01.03.01.02.18", "nome": "Timesheet" }
+                  ]
+                },
+                { "id": "01.03.01.03", "nome": "Funções de Acesso Inicial a Projetos" },
+                { "id": "01.03.01.04", "nome": "Exibir Valores da Barra de Cálculo" }
+              ]
+            },
+            {
+              "id": "01.03.06",
+              "nome": "Aceleradores de Implantação",
+              "submenus": [
+                { "id": "01.03.06.01", "nome": "Base ORCECERTO" },
+                { "id": "01.03.06.02", "nome": "App Minha Obra" },
+                { "id": "01.03.06.03", "nome": "Check-list do Portal de Medição do Fornecedor" },
+                { "id": "01.03.06.04", "nome": "Estruturação de Condições para Cadastramento de Funcionários" }
+              ]
+            },
+            { "id": "01.03.11", "nome": "Globais" },
+            {
+              "id": "01.03.12",
+              "nome": "Integrações",
+              "submenus": [
+                { "id": "01.03.12.01", "nome": "Incluir Integrações de Sistemas" },
+                { "id": "01.03.12.02", "nome": "Excluir Integrações de Sistemas" },
+                { "id": "01.03.12.03", "nome": "Editar Integrações de Sistemas" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "nome": "Cad. Gerais",
+      "submenus": [
+        {
+          "id": "02.01",
+          "nome": "Básicos",
+          "submenus": [
+            {
+              "id": "02.01.01",
+              "nome": "Unidades",
+              "submenus": [
+                { "id": "02.01.01.01", "nome": "Incluir Unidade" },
+                { "id": "02.01.01.02", "nome": "Excluir Unidade" },
+                { "id": "02.01.01.03", "nome": "Editar Unidade" }
+              ]
+            },
+            {
+              "id": "02.01.02",
+              "nome": "Modelos de Taxa",
+              "submenus": [
+                { "id": "02.01.02.01", "nome": "Incluir Modelo de Taxa" },
+                { "id": "02.01.02.02", "nome": "Excluir Modelo de Taxa" },
+                { "id": "02.01.02.03", "nome": "Editar Modelo de Taxa" }
+              ]
+            },
+            {
+              "id": "02.01.03",
+              "nome": "Campos Complementares",
+              "submenus": [
+                { "id": "02.01.03.01", "nome": "Projeto" },
+                { "id": "02.01.03.02", "nome": "Obra" },
+                { "id": "02.01.03.03", "nome": "Tarefas" },
+                { "id": "02.01.03.04", "nome": "Contrato" },
+                { "id": "02.01.03.05", "nome": "Medição" },
+                { "id": "02.01.03.06", "nome": "Insumos" },
+                { "id": "02.01.03.07", "nome": "Composições" },
+                { "id": "02.01.03.08", "nome": "Apropriação de Insumos" },
+                { "id": "02.01.03.09", "nome": "Aditivos de Contrato" },
+                { "id": "02.01.03.10", "nome": "Grupo de Custo" },
+                { "id": "02.01.03.11", "nome": "Pedidos (Movimento Backoffice)" },
+                { "id": "02.01.03.12", "nome": "Folha Tarefa" },
+                { "id": "02.01.03.13", "nome": "Apontamentos de Ciclo de Transporte" },
+                { "id": "02.01.03.14", "nome": "Apontamentos de Equipamentos" },
+                { "id": "02.01.03.15", "nome": "Histórico de Apontamentos de Avanço Físico" },
+                { "id": "02.01.03.16", "nome": "Apontamentos de Mão de Obra" }
+              ]
+            },
+            { "id": "02.01.20", "nome": "Moedas e Índices" },
+            { "id": "02.01.21", "nome": "Cotações" },
+            { "id": "02.01.22", "nome": "Bancos e Agências" },
+            { "id": "02.01.23", "nome": "Filiais" },
+            { "id": "02.01.24", "nome": "Países" },
+            { "id": "02.01.25", "nome": "Departamentos" },
+            { "id": "02.01.26", "nome": "Estados" },
+            {
+              "id": "02.01.27",
+              "nome": "Calendários",
+              "submenus": [
+                { "id": "02.01.27.01", "nome": "Incluir Calendários e Feriados" },
+                { "id": "02.01.27.02", "nome": "Excluir Calendários e Feriados" },
+                { "id": "02.01.27.03", "nome": "Editar Calendários e Feriados" }
+              ]
+            },
+            {
+              "id": "02.01.28",
+              "nome": "Motivo de Improdutividade",
+              "submenus": [
+                { "id": "02.01.28.01", "nome": "Inserir Motivos Prod/Improd" },
+                { "id": "02.01.28.02", "nome": "Excluir Motivos Prod/Improd" },
+                { "id": "02.01.28.03", "nome": "Editar Motivos Prod/Improd" }
+              ]
+            },
+            {
+              "id": "02.01.29",
+              "nome": "Unidade de Serviço",
+              "submenus": [
+                { "id": "02.01.29.01", "nome": "Incluir Unidade de Serviço" },
+                { "id": "02.01.29.02", "nome": "Excluir Unidade de Serviço" },
+                { "id": "02.01.29.03", "nome": "Alterar Unidade de Serviço" },
+                { "id": "02.01.29.04", "nome": "Local de Serviço" },
+                { "id": "02.01.29.05", "nome": "Incluir Local de Serviço" },
+                { "id": "02.01.29.06", "nome": "Excluir Local de Serviço" },
+                { "id": "02.01.29.07", "nome": "Alterar Local de Serviço" },
+                { "id": "02.01.29.08", "nome": "Copiar Local de Serviço" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02.02",
+          "nome": "Tabelas Auxiliares",
+          "submenus": [
+            {
+              "id": "02.02.01",
+              "nome": "Condição de Pagamento",
+              "submenus": [
+                { "id": "02.02.01.01", "nome": "Incluir Condição de Pagamento" },
+                { "id": "02.02.01.02", "nome": "Excluir Condição de Pagamento" },
+                { "id": "02.02.01.03", "nome": "Editar Condição de Pagamento" }
+              ]
+            },
+            {
+              "id": "02.02.02",
+              "nome": "Clientes/Fornecedores",
+              "submenus": [
+                { "id": "02.02.02.01", "nome": "Inserir novo Cliente/Fornecedor" },
+                { "id": "02.02.02.02", "nome": "Excluir Cliente/Fornecedor" },
+                { "id": "02.02.02.03", "nome": "Editar Cliente/Fornecedor" },
+                { "id": "02.02.02.04", "nome": "Alteração Global de cliente/fornecedor" },
+                { "id": "02.02.02.05", "nome": "Imprimir relatório simplificado de Cliente/Fornecedor" },
+                { "id": "02.02.02.06", "nome": "Acessar Cliente" },
+                { "id": "02.02.02.07", "nome": "Acessar Fornecedor" },
+                { "id": "02.02.02.08", "nome": "Envio de e-mail para Cliente/Fornecedor" },
+                { "id": "02.02.02.09", "nome": "Incluir Filtro de Cliente/Fornecedor" },
+                { "id": "02.02.02.10", "nome": "Editar Filtro de Cliente/Fornecedor" },
+                { "id": "02.02.02.11", "nome": "Excluir Filtro de Cliente/Fornecedor" },
+                { "id": "02.02.02.12", "nome": "Exportar visão para arquivo no formato CSV" },
+                { "id": "02.02.02.13", "nome": "Inserir Contato do Cliente/Fornecedor" },
+                { "id": "02.02.02.14", "nome": "Excluir Contato do Cliente/Fornecedor" },
+                { "id": "02.02.02.15", "nome": "Editar Contato do Cliente/Fornecedor" },
+                { "id": "02.02.02.16", "nome": "Usuários Vinculados (Portal de Medição do Fornecedor - TCOP)" }
+              ]
+            },
+            {
+              "id": "02.02.03",
+              "nome": "Produto",
+              "submenus": [
+                { "id": "02.02.03.01", "nome": "Inserir Produtos" },
+                { "id": "02.02.03.02", "nome": "Remover Produtos" },
+                { "id": "02.02.03.03", "nome": "Alterar Produtos" },
+                { "id": "02.02.03.04", "nome": "Alterar filtros produtos" },
+                { "id": "02.02.03.05", "nome": "Excluir filtros produtos" },
+                { "id": "02.02.03.06", "nome": "Incluir filtros produtos" },
+                { "id": "02.02.03.07", "nome": "Filtro RM Factor" },
+                { "id": "02.02.03.08", "nome": "Visualizar Lote" },
+                { "id": "02.02.03.09", "nome": "Inserir Lote" },
+                { "id": "02.02.03.10", "nome": "Remover Lote" },
+                { "id": "02.02.03.11", "nome": "Alterar Lote" },
+                { "id": "02.02.03.12", "nome": "Aplicar Cliente/fornecedor" },
+                { "id": "02.02.03.13", "nome": "Comissão Funcionário" },
+                { "id": "02.02.03.14", "nome": "Vincula Produto a EPI do RM Vitae" }
+              ]
+            },
+            {
+              "id": "02.02.04",
+              "nome": "Pessoas",
+              "submenus": [
+                { "id": "02.02.04.01", "nome": "Inserir uma Pessoa" },
+                { "id": "02.02.04.02", "nome": "Excluir uma Pessoa" },
+                { "id": "02.02.04.03", "nome": "Editar uma Pessoa" },
+                { "id": "02.02.04.04", "nome": "Enviar e-mail" },
+                { "id": "02.02.04.05", "nome": "Visualizar rel. dados pessoais" },
+                { "id": "02.02.04.06", "nome": "Documentos: Visualizar" },
+                { "id": "02.02.04.07", "nome": "Documentos: Alterar" },
+                { "id": "02.02.04.08", "nome": "Aplicar filtro" },
+                { "id": "02.02.04.09", "nome": "Gráficos: Visualizar" },
+                { "id": "02.02.04.10", "nome": "Gráficos: Alterar" },
+                { "id": "02.02.04.11", "nome": "Gráficos: Excluir" },
+                { "id": "02.02.04.12", "nome": "Gráficos: Incluir" },
+                { "id": "02.02.04.13", "nome": "Identificação: Visualizar" },
+                { "id": "02.02.04.14", "nome": "Identificação: Alterar" },
+                { "id": "02.02.04.15", "nome": "Identificação: Visualizar Informações Adicionais" },
+                { "id": "02.02.04.16", "nome": "Identificação: Alterar Informações Adicionais" },
+                { "id": "02.02.04.17", "nome": "Identificação: Visualizar Endereço Principal" },
+                { "id": "02.02.04.18", "nome": "Identificação: Alterar Endereço Principal" },
+                { "id": "02.02.04.19", "nome": "Identificação: Visualizar Histórico de Endereço" },
+                { "id": "02.02.04.20", "nome": "Identificação: Alterar Histórico de Endereço" },
+                { "id": "02.02.04.21", "nome": "Identificação: Excluir Histórico de Endereço" },
+                { "id": "02.02.04.22", "nome": "Identificação: Incluir Histórico de Endereço" },
+                { "id": "02.02.04.23", "nome": "Identificação: Visualizar Endereço Complementar" },
+                { "id": "02.02.04.24", "nome": "Identificação: Alterar Endereço Complementar" },
+                { "id": "02.02.04.25", "nome": "Identificação: Excluir Endereço Complementar" },
+                { "id": "02.02.04.26", "nome": "Identificação: Incluir Endereço Complementar" },
+                { "id": "02.02.04.27", "nome": "Incluir pessoa como candidato" }
+              ]
+            },
+            {
+              "id": "02.02.05",
+              "nome": "Terceiros",
+              "submenus": [
+                { "id": "02.02.05.01", "nome": "Incluir Terceiro" },
+                { "id": "02.02.05.02", "nome": "Excluir Terceiro" },
+                { "id": "02.02.05.03", "nome": "Editar Terceiro" }
+              ]
+            },
+            {
+              "id": "02.02.06",
+              "nome": "Funções",
+              "submenus": [
+                { "id": "02.02.06.01", "nome": "Funções: Inserir" },
+                { "id": "02.02.06.02", "nome": "Funções: Excluir" },
+                { "id": "02.02.06.03", "nome": "Funções: Editar" },
+                { "id": "02.02.06.04", "nome": "Filtro de Funções: Inserir" },
+                { "id": "02.02.06.05", "nome": "Filtro de Funções: Editar" },
+                { "id": "02.02.06.06", "nome": "Filtro de Funções: Excluir" }
+              ]
+            },
+            { "id": "02.02.07", "nome": "Funcionários" },
+            {
+              "id": "02.02.08",
+              "nome": "Patrimônio",
+              "submenus": [
+                { "id": "02.02.08.01", "nome": "Patrimônio - Incluir" },
+                { "id": "02.02.08.02", "nome": "Patrimônio - Excluir" },
+                { "id": "02.02.08.03", "nome": "Patrimônio - Editar" }
+              ]
+            },
+            {
+              "id": "02.02.09",
+              "nome": "Grupo de Patrimônio",
+              "submenus": [
+                { "id": "02.02.09.01", "nome": "Grupos - Incluir" },
+                { "id": "02.02.09.02", "nome": "Grupos - Excluir" },
+                { "id": "02.02.09.03", "nome": "Grupos - Editar" }
+              ]
+            },
+            { "id": "02.02.10", "nome": "Funções de Pessoas" }
+          ]
+        },
+        {
+          "id": "02.03",
+          "nome": "Contábeis",
+          "submenus": [
+            { "id": "02.03.01", "nome": "Centros de Custos" },
+            { "id": "02.03.02", "nome": "Classificação de Centros de Custo" }
+          ]
+        },
+        {
+          "id": "02.04",
+          "nome": "Serviços Globais",
+          "submenus": [
+            { "id": "02.04.01", "nome": "Coligadas" },
+            { "id": "02.04.02", "nome": "Tabelas Dinâmicas" },
+            { "id": "02.04.03", "nome": "Fórmulas" },
+            { "id": "02.04.04", "nome": "Códigos de Acesso" },
+            {
+              "id": "02.04.05",
+              "nome": "Perfis",
+              "submenus": [
+                { "id": "02.04.05.01", "nome": "Inserir Novo Perfil" },
+                { "id": "02.04.05.02", "nome": "Remover Perfil" },
+                { "id": "02.04.05.03", "nome": "Editar Perfil" },
+                { "id": "02.04.05.04", "nome": "Permissões de Segurança para o Wizard de Parametrização" }
+              ]
+            },
+            { "id": "02.04.06", "nome": "Usuários" },
+            { "id": "02.04.07", "nome": "Permissões de Acesso" },
+            {
+              "id": "02.04.08",
+              "nome": "Administrativa",
+              "submenus": [
+                { "id": "02.04.08.01", "nome": "Actions do Sistema" },
+                { "id": "02.04.08.02", "nome": "Actions Anexas" },
+                { "id": "02.04.08.03", "nome": "Preferências de Anexos" },
+                { "id": "02.04.08.04", "nome": "Cadastro de RMParts" },
+                { "id": "02.04.08.05", "nome": "Servidores de Aplicação" },
+                { "id": "02.04.08.06", "nome": "Gerenciamento de Alias" },
+                { "id": "02.04.08.07", "nome": "Conexões a Bancos de Dados externos" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
